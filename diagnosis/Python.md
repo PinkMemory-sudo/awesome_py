@@ -848,6 +848,14 @@ print(s)
 * 时间序列支持：DataFrame 对时间序列数据有特别的支持，可以轻松地进行时间数据的切片、索引和操作。
 * 滚动窗口和时间序列分析：支持对数据集进行滚动窗口统计和时间序列分析。
 
+```python
+# 构造方法
+pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
+```
+
+* DataFrame 的数据部分，可以是字典、二维数组、Series、DataFrame 或其他可转换为 DataFrame 的对象。如果不提供此参数，则创建一个空的 DataFrame
+* DataFrame 的列索引，用于标识每列数据。可以是列表、数组、索引对象等。如果不提供此参数，则创建一个默认的整数索引。
+
 
 
 
