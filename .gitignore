@@ -1,0 +1,36 @@
+# Python bytecode files
+*.pyc
+
+# Virtual environment
+venv/
+__pycache__/
+
+# IDE files (PyCharm, VSCode, etc.)
+.idea/
+.vscode/
+
+# Environment variables file
+.env
+
+# Log files
+*.log
+
+# Compiled Python files
+*.pyc
+
+# Compiled Python bytecode
+__pycache__/
+
+# Database files
+db.sqlite3
+
+# Package distribution files
+dist/
+build/
+
+# Cache files
+__pycache__/
+.cache/
+
+# Ignore macOS system files
+.DS_Store
