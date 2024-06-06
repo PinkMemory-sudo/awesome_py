@@ -29,7 +29,7 @@ Flask 版本是 2.3 或更高版本，则可以直接使用 --debug 命令行选
 ```python
 @app.route('/user/<name>')
 def user_page(name):
-    return 'User page'
+    return f'User: {escape(name)}'
 ```
 
 
